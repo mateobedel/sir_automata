@@ -10,7 +10,7 @@ int nombre_cellules = 100; //Longueur/largeur de l'automate cellulaire
 
 //Les deux méthodes de répartitions de la densité (fonction ou graymap)
 double (*fonction_dens)(double, double) = f_const; //fonction de densité (active que si chemin_dens vaut NULL) (f_const ou f_gauss)
-char* chemin_dens = "graymap/densnocompr.pgm"; //chemin d'acces de la graymap en .pgm 
+char* chemin_dens = "graymap/densnewyork.pgm"; //chemin d'acces de la graymap en .pgm 
 
 //Afficher les proportions d'infectés sommés jusqu'au temps d au lieu des proportions du temps d
 double afficher_somme_inf = false;
