@@ -31,7 +31,7 @@ Vous pouvez modifier les paramètres de la simulation, en modifiant les variable
 * Afficher les proportions d'infectés sommés
 
 
-### 2 - Compilation & Exécution
+### 3 - Compilation & Exécution
 
 ```shell
 make
